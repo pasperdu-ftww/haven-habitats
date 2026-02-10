@@ -101,7 +101,7 @@ export default function Dimensions({ config, setConfig, product }) {
                 className="bg-navy/5 border-2 border-navy/20 rounded-lg transition-all duration-300 flex items-center justify-center"
                 style={{
                   width: `${Math.min(w * 20, 320)}px`,
-                  height: `${Math.min(d * 20, 240)}px`,
+                  height: `${Math.min(h * 20, 240)}px`,
                 }}
               >
                 <div className="text-center">
